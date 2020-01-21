@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Opdracht 4.1</title>
+</head>
+<body>
+    <script>
+        var mijnauto = {
+            merk: "Ford",
+            kleur: "blauw",
+            snelheid: 0,
+
+            gasgeven: function() {
+                this.snelheid += 5
+                console.log(this.snelheid);
+            },
+
+            toeteren: function() {
+                console.log("toet");
+            }
+        }
+        
+
+console.log(mijnauto.kleur);
+mijnauto.gasgeven();
+mijnauto.gasgeven();
+mijnauto.gasgeven();
+mijnauto.gasgeven();
+mijnauto.gasgeven();
+mijnauto.gasgeven();
+mijnauto.gasgeven();
+mijnauto.toeteren();
+
+    </script>
+</body>
+</html>
