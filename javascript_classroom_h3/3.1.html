@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="3.1.css">
+    <title>The Panthers Shuffle</title>
+</head>
+<body>
+    <script src="3.1.js"></script>
+    <h1>The Panthers shuffle</h1>
+    <div id="pics">
+        <img src="../javascript_classroom_h3/img/blackpanther1.jpg"  alt="panter 1">
+        <img src="../javascript_classroom_h3/img/blackpanther2.jpg" alt="panter 2">
+        <img src="../javascript_classroom_h3/img/blackpanther3.jpg" alt="panter 3">
+        <img src="../javascript_classroom_h3/img/blackpanther4.jpg" alt="panter 4">
+        <img src="../javascript_classroom_h3/img/blackpanther5.jpg" alt="panter 5">
+        <img src="../javascript_classroom_h3/img/blackpanther6.jpg" alt="panter 6">
+        <img src="../javascript_classroom_h3/img/blackpanther7.jpg" alt="panter 7">
+        <img src="../javascript_classroom_h3/img/blackpanther8.jpg" alt="panter 8">
+        <img src="../javascript_classroom_h3/img/blackpanther9.jpg" alt="panter 9">
+    </div>
+    <script>
+    var pictures = document.getElementsByTagName("img");
+    var random = 0;
+
+    for( var i = 0; i < pictures.length; i++) {
+        random = Math.floor(Math.random() * 9) + 1;
+        pictures[i].src = "../javascript_classroom_h3/img/blackpanther" + random + ".jpg";
+    }  
+    </script>
+</body>
+</html>

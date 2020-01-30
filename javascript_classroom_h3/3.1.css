@@ -1,0 +1,22 @@
+html {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+body {
+    font-family: serif;
+    text-align: center;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    border: 0;
+}
+#pics {
+    width: 900px;
+    height: 900px;
+    border: solid black 1px;
+    font-size: 0px;
+    margin: auto;
+}
